@@ -4,9 +4,9 @@
 
 #This program displays fictional address and cellphone info
 def personal_information():
-#Variables for each item, to keep things organized
+#Variables for each item
     name = "Ainsley Bellamy"
-#Was not totally sure how to indent this line right, so I added a bunch of \t's and a couple of spaces.
+#Added \t's to format
     address = "3675 32nd Street South\n\t\t\t\t\t  Denver, CO 80014"
     cellNumber = "303-678-4120"
     major = "Liberal Studies"
