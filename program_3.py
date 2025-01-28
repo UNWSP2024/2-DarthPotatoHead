@@ -3,21 +3,21 @@
 #Program Title: displayTax_and_Total
 
 def calculate_total_purchase():
-    #empty array to fill
+#empty array to fill with prices
     item_prices = []
-    #variable count to determine when the loop ends
+#variable count to determine when the loop ends
     count = 0
     while count < 5:
         #user item price inputs
         price = float(input("Enter price of item: "))
         item_prices.append(price)
         count += 1
-    #sum up prices
+#sum up prices
     subtotal = sum(item_prices)
     tax = float(0.07)
-    #calculate amount of tax
+#calculate amount of tax
     tax_amount = tax*subtotal
-    #calculate tax + subtotal
+#calculate tax + subtotal
     total = tax_amount+subtotal
     print(f'Subtotal: ${subtotal:.2f}\n'
           f'Tax Amount: ${tax_amount:.2f}\n'
