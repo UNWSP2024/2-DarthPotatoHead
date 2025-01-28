@@ -14,3 +14,12 @@ if __name__ == '__main__':
     fahrenheit = temp_conversion(celsius)
     # Display the Fahrenheit temperature.
     print ("That is equal to", format(fahrenheit, '.2f'), "degrees Fahrenheit.")
+
+#Question--Why no write it like this?
+
+# def temp_conversion():
+#     celsius = float(input("Enter a Celsius temperature: "))
+#     fahrenheit = (9/5) * celsius + 32
+#     print ("That is equal to", format(fahrenheit, '.2f'), "degrees Fahrenheit.")
+# temp_conversion()
+
